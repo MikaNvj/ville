@@ -1,0 +1,28 @@
+
+@media screen and (max-width : 414px) {
+    .down-menu-container {
+        font-size: 12px;
+    }
+
+    .down-menu {
+        padding-bottom: 3px;
+        padding-top: 3px;
+        gap: 4px;
+    }
+
+    .down-menu a {
+        padding: 0 6px;
+    }
+
+    .down-menu :first-child {
+        width: 24px;
+        height: 24px;
+    }
+
+}
+
+@media screen and (min-width: 414px) and (max-width : 768px) {
+    .down-menu-container {
+        font-size: 14px;
+    }
+}

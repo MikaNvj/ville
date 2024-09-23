@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {  
+    .content h1{
+        width: 90vw;
+        font-size: 32px;
+        line-height: 1;
+        margin: 0;
+      }
+      .content p{
+        width: 90vw;
+        font-size: 14px;
+        font-family: sans-serif;
+      }
+}
