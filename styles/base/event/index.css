@@ -1,0 +1,64 @@
+.event-section{
+    height: 100vh;
+    width: 100vw;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.event-section h1{
+    font-size: 40px;
+    margin: 0;
+}
+.event-section .card-wrapper {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    /* margin: 80px 0 60px; */
+}
+.card-wrapper .card .overlay {
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.card-wrapper .card {
+    background-image: url('../../../assets/DSC05523.JPG');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: end;
+    max-height: 180px;
+    overflow: hidden;
+    padding: 28px;
+    position: relative;
+    top: 0;
+    transition: top .2s ease;
+    width: 35vw;
+}
+.card span {
+    font-size: 16px;
+    z-index: 1;
+}
+.card h3{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0%;
+    z-index: 1;
+}

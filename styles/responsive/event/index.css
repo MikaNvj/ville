@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {  
+    .event-section h1{
+        font-size: 20px;
+    }
+    .card-wrapper .card{
+        width: 80vw;
+        height: 10vh;
+    }
+}
